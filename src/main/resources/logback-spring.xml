@@ -3,18 +3,18 @@
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <!-- Log message format -->
         <encoder>
-            <pattern>ACCOUNT-SERVICE | %d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+            <pattern>SJP-MOVIE-API | %d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
         </encoder>
     </appender>
 
-    <logger name="id.sjp.accountservice" level="WARN" />
+    <logger name="com.nostratech.nostramovie" level="INFO"/>
 
     <!-- Setting the logging level to INFO for Spring Framework-->
-    <logger name="logging.level.org.springframework" level="DEBUG" />
+    <logger name="logging.level.org.springframework" level="DEBUG"/>
 
     <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <encoder>
-            <pattern>ACCOUNT-SERVICE | %d{dd-MM-yyyy} %d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+            <pattern>ITEM-MANAGER-SS | %d{dd-MM-yyyy} %d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
         </encoder>
         <file>${LOG_FILE}</file>
         <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
@@ -24,18 +24,18 @@
             <maxIndex>50</maxIndex>
             <!--<maxHistory>30</maxHistory>-->
         </rollingPolicy>
-            <triggeringPolicy
+        <triggeringPolicy
                 class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
             <MaxFileSize>100MB</MaxFileSize>
         </triggeringPolicy>
     </appender>
 
     <root level="INFO">
-        <appender-ref ref="FILE" />
+        <appender-ref ref="FILE"/>
     </root>
 
     <root level="INFO">
-        <appender-ref ref="STDOUT" />
+        <appender-ref ref="STDOUT"/>
     </root>
 
 </configuration>
