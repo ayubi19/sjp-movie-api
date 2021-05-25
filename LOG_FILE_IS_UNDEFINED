@@ -1,0 +1,410 @@
+ACCOUNT-SERVICE | 11-12-2020 16:30:16.849 [main] INFO  s.i.m.a.AccountServiceApplicationTests - Starting AccountServiceApplicationTests on ayubi-buaya-dev with PID 271503 (started by ayubi in /home/ayubi/sjp/belajar/spring-boot/account-service)
+ACCOUNT-SERVICE | 11-12-2020 16:30:16.850 [main] INFO  s.i.m.a.AccountServiceApplicationTests - The following profiles are active: local
+ACCOUNT-SERVICE | 11-12-2020 16:30:17.253 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+ACCOUNT-SERVICE | 11-12-2020 16:30:17.254 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ACCOUNT-SERVICE | 11-12-2020 16:30:17.287 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4ms. Found 0 Redis repository interfaces.
+ACCOUNT-SERVICE | 11-12-2020 16:30:17.482 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+ACCOUNT-SERVICE | 11-12-2020 16:30:17.483 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+ACCOUNT-SERVICE | 11-12-2020 16:30:17.503 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 JPA repository interfaces.
+ACCOUNT-SERVICE | 11-12-2020 16:30:17.523 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+ACCOUNT-SERVICE | 11-12-2020 16:30:17.523 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ACCOUNT-SERVICE | 11-12-2020 16:30:17.526 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2ms. Found 0 Redis repository interfaces.
+ACCOUNT-SERVICE | 11-12-2020 16:30:18.195 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ACCOUNT-SERVICE | 11-12-2020 16:30:18.314 [task-1] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ACCOUNT-SERVICE | 11-12-2020 16:30:18.373 [task-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.20.Final
+ACCOUNT-SERVICE | 11-12-2020 16:30:18.521 [task-1] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ACCOUNT-SERVICE | 11-12-2020 16:30:18.626 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - account-connection-pool - Starting...
+ACCOUNT-SERVICE | 11-12-2020 16:30:18.760 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - account-connection-pool - Start completed.
+ACCOUNT-SERVICE | 11-12-2020 16:30:18.780 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+ACCOUNT-SERVICE | 11-12-2020 16:30:19.092 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ACCOUNT-SERVICE | 11-12-2020 16:30:19.101 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ACCOUNT-SERVICE | 11-12-2020 16:30:19.116 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ACCOUNT-SERVICE | 11-12-2020 16:30:20.076 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+ACCOUNT-SERVICE | 11-12-2020 16:30:20.076 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+ACCOUNT-SERVICE | 11-12-2020 16:30:20.085 [main] INFO  s.i.m.a.AccountServiceApplicationTests - Started AccountServiceApplicationTests in 3.582 seconds (JVM running for 4.417)
+ACCOUNT-SERVICE | 11-12-2020 16:30:20.356 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ACCOUNT-SERVICE | 11-12-2020 16:30:20.358 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+ACCOUNT-SERVICE | 11-12-2020 16:30:20.358 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - account-connection-pool - Shutdown initiated...
+ACCOUNT-SERVICE | 11-12-2020 16:30:20.360 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - account-connection-pool - Shutdown completed.
+ACCOUNT-SERVICE | 11-12-2020 16:31:43.088 [main] INFO  i.s.m.a.AccountServiceApplicationTests - Starting AccountServiceApplicationTests on ayubi-buaya-dev with PID 271786 (started by ayubi in /home/ayubi/sjp/belajar/spring-boot/account-service)
+ACCOUNT-SERVICE | 11-12-2020 16:31:43.088 [main] INFO  i.s.m.a.AccountServiceApplicationTests - The following profiles are active: local
+ACCOUNT-SERVICE | 11-12-2020 16:31:43.605 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+ACCOUNT-SERVICE | 11-12-2020 16:31:43.607 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+ACCOUNT-SERVICE | 11-12-2020 16:31:43.770 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JPA - Could not safely identify store assignment for repository candidate interface id.sjp.microservice.accountservice.repository.redis.TempAccountRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+ACCOUNT-SERVICE | 11-12-2020 16:31:43.785 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 167ms. Found 1 JPA repository interfaces.
+ACCOUNT-SERVICE | 11-12-2020 16:31:43.796 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+ACCOUNT-SERVICE | 11-12-2020 16:31:43.797 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ACCOUNT-SERVICE | 11-12-2020 16:31:43.808 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface id.sjp.microservice.accountservice.repository.database.AccountRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+ACCOUNT-SERVICE | 11-12-2020 16:31:43.813 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9ms. Found 1 Redis repository interfaces.
+ACCOUNT-SERVICE | 11-12-2020 16:31:44.326 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ACCOUNT-SERVICE | 11-12-2020 16:31:44.424 [task-1] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ACCOUNT-SERVICE | 11-12-2020 16:31:44.474 [task-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.20.Final
+ACCOUNT-SERVICE | 11-12-2020 16:31:44.652 [task-1] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ACCOUNT-SERVICE | 11-12-2020 16:31:44.675 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ACCOUNT-SERVICE | 11-12-2020 16:31:44.834 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - account-connection-pool - Starting...
+ACCOUNT-SERVICE | 11-12-2020 16:31:44.972 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - account-connection-pool - Start completed.
+ACCOUNT-SERVICE | 11-12-2020 16:31:44.998 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+ACCOUNT-SERVICE | 11-12-2020 16:31:45.739 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ACCOUNT-SERVICE | 11-12-2020 16:31:45.750 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ACCOUNT-SERVICE | 11-12-2020 16:31:46.363 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+ACCOUNT-SERVICE | 11-12-2020 16:31:46.604 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+ACCOUNT-SERVICE | 11-12-2020 16:31:46.615 [main] INFO  i.s.m.a.AccountServiceApplicationTests - Started AccountServiceApplicationTests in 3.874 seconds (JVM running for 4.683)
+ACCOUNT-SERVICE | 11-12-2020 16:31:46.768 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ACCOUNT-SERVICE | 11-12-2020 16:31:46.770 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+ACCOUNT-SERVICE | 11-12-2020 16:31:46.771 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - account-connection-pool - Shutdown initiated...
+ACCOUNT-SERVICE | 11-12-2020 16:31:46.775 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - account-connection-pool - Shutdown completed.
+ACCOUNT-SERVICE | 11-12-2020 16:36:04.659 [main] INFO  i.s.m.a.AccountServiceApplicationTests - Starting AccountServiceApplicationTests on ayubi-buaya-dev with PID 272274 (started by ayubi in /home/ayubi/sjp/belajar/spring-boot/account-service)
+ACCOUNT-SERVICE | 11-12-2020 16:36:04.660 [main] INFO  i.s.m.a.AccountServiceApplicationTests - The following profiles are active: local
+ACCOUNT-SERVICE | 11-12-2020 16:36:05.167 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+ACCOUNT-SERVICE | 11-12-2020 16:36:05.169 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+ACCOUNT-SERVICE | 11-12-2020 16:36:05.323 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JPA - Could not safely identify store assignment for repository candidate interface id.sjp.microservice.accountservice.repository.redis.TempAccountRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+ACCOUNT-SERVICE | 11-12-2020 16:36:05.350 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 175ms. Found 1 JPA repository interfaces.
+ACCOUNT-SERVICE | 11-12-2020 16:36:05.361 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+ACCOUNT-SERVICE | 11-12-2020 16:36:05.362 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ACCOUNT-SERVICE | 11-12-2020 16:36:05.375 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface id.sjp.microservice.accountservice.repository.database.AccountRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+ACCOUNT-SERVICE | 11-12-2020 16:36:05.382 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11ms. Found 1 Redis repository interfaces.
+ACCOUNT-SERVICE | 11-12-2020 16:36:05.864 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ACCOUNT-SERVICE | 11-12-2020 16:36:05.957 [task-1] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ACCOUNT-SERVICE | 11-12-2020 16:36:06.014 [task-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.20.Final
+ACCOUNT-SERVICE | 11-12-2020 16:36:06.163 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ACCOUNT-SERVICE | 11-12-2020 16:36:06.177 [task-1] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ACCOUNT-SERVICE | 11-12-2020 16:36:06.304 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - account-connection-pool - Starting...
+ACCOUNT-SERVICE | 11-12-2020 16:36:06.437 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - account-connection-pool - Start completed.
+ACCOUNT-SERVICE | 11-12-2020 16:36:06.463 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+ACCOUNT-SERVICE | 11-12-2020 16:36:07.082 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ACCOUNT-SERVICE | 11-12-2020 16:36:07.110 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ACCOUNT-SERVICE | 11-12-2020 16:36:07.544 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+ACCOUNT-SERVICE | 11-12-2020 16:36:07.773 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+ACCOUNT-SERVICE | 11-12-2020 16:36:07.780 [main] INFO  i.s.m.a.AccountServiceApplicationTests - Started AccountServiceApplicationTests in 3.456 seconds (JVM running for 4.204)
+ACCOUNT-SERVICE | 11-12-2020 16:36:07.901 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ACCOUNT-SERVICE | 11-12-2020 16:36:07.903 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+ACCOUNT-SERVICE | 11-12-2020 16:36:07.904 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - account-connection-pool - Shutdown initiated...
+ACCOUNT-SERVICE | 11-12-2020 16:36:07.906 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - account-connection-pool - Shutdown completed.
+ACCOUNT-SERVICE | 11-12-2020 16:39:40.964 [main] INFO  i.s.m.a.AccountServiceApplication - Starting AccountServiceApplication on ayubi-buaya-dev with PID 272644 (/home/ayubi/sjp/belajar/spring-boot/account-service/target/classes started by ayubi in /home/ayubi/sjp/belajar/spring-boot/account-service)
+ACCOUNT-SERVICE | 11-12-2020 16:39:40.966 [main] INFO  i.s.m.a.AccountServiceApplication - The following profiles are active: local
+ACCOUNT-SERVICE | 11-12-2020 16:39:41.312 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+ACCOUNT-SERVICE | 11-12-2020 16:39:41.312 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+ACCOUNT-SERVICE | 11-12-2020 16:39:41.394 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JPA - Could not safely identify store assignment for repository candidate interface id.sjp.microservice.accountservice.repository.redis.TempAccountRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+ACCOUNT-SERVICE | 11-12-2020 16:39:41.405 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 57ms. Found 1 JPA repository interfaces.
+ACCOUNT-SERVICE | 11-12-2020 16:39:41.414 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+ACCOUNT-SERVICE | 11-12-2020 16:39:41.415 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ACCOUNT-SERVICE | 11-12-2020 16:39:41.422 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface id.sjp.microservice.accountservice.repository.database.AccountRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+ACCOUNT-SERVICE | 11-12-2020 16:39:41.427 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 1 Redis repository interfaces.
+ACCOUNT-SERVICE | 11-12-2020 16:39:41.715 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 6969 (http)
+ACCOUNT-SERVICE | 11-12-2020 16:39:41.721 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-6969"]
+ACCOUNT-SERVICE | 11-12-2020 16:39:41.722 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+ACCOUNT-SERVICE | 11-12-2020 16:39:41.722 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+ACCOUNT-SERVICE | 11-12-2020 16:39:41.773 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ACCOUNT-SERVICE | 11-12-2020 16:39:41.773 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 778 ms
+ACCOUNT-SERVICE | 11-12-2020 16:39:41.884 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ACCOUNT-SERVICE | 11-12-2020 16:39:41.905 [task-1] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ACCOUNT-SERVICE | 11-12-2020 16:39:41.920 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ACCOUNT-SERVICE | 11-12-2020 16:39:41.931 [task-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.20.Final
+ACCOUNT-SERVICE | 11-12-2020 16:39:42.001 [task-1] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ACCOUNT-SERVICE | 11-12-2020 16:39:42.120 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - account-connection-pool - Starting...
+ACCOUNT-SERVICE | 11-12-2020 16:39:42.172 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - account-connection-pool - Start completed.
+ACCOUNT-SERVICE | 11-12-2020 16:39:42.180 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+ACCOUNT-SERVICE | 11-12-2020 16:39:42.437 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6969"]
+ACCOUNT-SERVICE | 11-12-2020 16:39:42.449 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 6969 (http) with context path ''
+ACCOUNT-SERVICE | 11-12-2020 16:39:42.451 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+ACCOUNT-SERVICE | 11-12-2020 16:39:42.503 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ACCOUNT-SERVICE | 11-12-2020 16:39:42.508 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ACCOUNT-SERVICE | 11-12-2020 16:39:42.610 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+ACCOUNT-SERVICE | 11-12-2020 16:39:42.616 [main] INFO  i.s.m.a.AccountServiceApplication - Started AccountServiceApplication in 1.946 seconds (JVM running for 2.155)
+ACCOUNT-SERVICE | 11-12-2020 16:41:56.164 [http-nio-6969-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ACCOUNT-SERVICE | 11-12-2020 16:41:56.164 [http-nio-6969-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ACCOUNT-SERVICE | 11-12-2020 16:41:56.170 [http-nio-6969-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+ACCOUNT-SERVICE | 11-12-2020 16:43:18.386 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ACCOUNT-SERVICE | 11-12-2020 16:43:18.388 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+ACCOUNT-SERVICE | 11-12-2020 16:43:18.388 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - account-connection-pool - Shutdown initiated...
+ACCOUNT-SERVICE | 11-12-2020 16:43:18.390 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - account-connection-pool - Shutdown completed.
+ACCOUNT-SERVICE | 11-12-2020 16:43:26.420 [main] INFO  i.s.m.a.AccountServiceApplicationTests - Starting AccountServiceApplicationTests on ayubi-buaya-dev with PID 273567 (started by ayubi in /home/ayubi/sjp/belajar/spring-boot/account-service)
+ACCOUNT-SERVICE | 11-12-2020 16:43:26.420 [main] INFO  i.s.m.a.AccountServiceApplicationTests - The following profiles are active: local
+ACCOUNT-SERVICE | 11-12-2020 16:43:26.897 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+ACCOUNT-SERVICE | 11-12-2020 16:43:26.899 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+ACCOUNT-SERVICE | 11-12-2020 16:43:27.042 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JPA - Could not safely identify store assignment for repository candidate interface id.sjp.microservice.accountservice.repository.redis.TempAccountRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+ACCOUNT-SERVICE | 11-12-2020 16:43:27.063 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 157ms. Found 1 JPA repository interfaces.
+ACCOUNT-SERVICE | 11-12-2020 16:43:27.078 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+ACCOUNT-SERVICE | 11-12-2020 16:43:27.079 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ACCOUNT-SERVICE | 11-12-2020 16:43:27.089 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface id.sjp.microservice.accountservice.repository.database.AccountRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+ACCOUNT-SERVICE | 11-12-2020 16:43:27.094 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8ms. Found 1 Redis repository interfaces.
+ACCOUNT-SERVICE | 11-12-2020 16:43:27.512 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ACCOUNT-SERVICE | 11-12-2020 16:43:27.609 [task-1] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ACCOUNT-SERVICE | 11-12-2020 16:43:27.652 [task-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.20.Final
+ACCOUNT-SERVICE | 11-12-2020 16:43:27.776 [task-1] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ACCOUNT-SERVICE | 11-12-2020 16:43:27.790 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ACCOUNT-SERVICE | 11-12-2020 16:43:27.887 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - account-connection-pool - Starting...
+ACCOUNT-SERVICE | 11-12-2020 16:43:27.985 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - account-connection-pool - Start completed.
+ACCOUNT-SERVICE | 11-12-2020 16:43:28.003 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+ACCOUNT-SERVICE | 11-12-2020 16:43:28.632 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ACCOUNT-SERVICE | 11-12-2020 16:43:28.644 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ACCOUNT-SERVICE | 11-12-2020 16:43:29.057 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+ACCOUNT-SERVICE | 11-12-2020 16:43:29.233 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+ACCOUNT-SERVICE | 11-12-2020 16:43:29.241 [main] INFO  i.s.m.a.AccountServiceApplicationTests - Started AccountServiceApplicationTests in 3.123 seconds (JVM running for 3.854)
+ACCOUNT-SERVICE | 11-12-2020 16:43:29.347 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ACCOUNT-SERVICE | 11-12-2020 16:43:29.349 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+ACCOUNT-SERVICE | 11-12-2020 16:43:29.350 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - account-connection-pool - Shutdown initiated...
+ACCOUNT-SERVICE | 11-12-2020 16:43:29.353 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - account-connection-pool - Shutdown completed.
+ACCOUNT-SERVICE | 11-12-2020 16:43:36.091 [main] INFO  i.s.m.a.AccountServiceApplication - Starting AccountServiceApplication on ayubi-buaya-dev with PID 273683 (/home/ayubi/sjp/belajar/spring-boot/account-service/target/classes started by ayubi in /home/ayubi/sjp/belajar/spring-boot/account-service)
+ACCOUNT-SERVICE | 11-12-2020 16:43:36.093 [main] INFO  i.s.m.a.AccountServiceApplication - The following profiles are active: local
+ACCOUNT-SERVICE | 11-12-2020 16:43:36.442 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+ACCOUNT-SERVICE | 11-12-2020 16:43:36.442 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+ACCOUNT-SERVICE | 11-12-2020 16:43:36.527 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JPA - Could not safely identify store assignment for repository candidate interface id.sjp.microservice.accountservice.repository.redis.TempAccountRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+ACCOUNT-SERVICE | 11-12-2020 16:43:36.538 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 63ms. Found 1 JPA repository interfaces.
+ACCOUNT-SERVICE | 11-12-2020 16:43:36.547 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+ACCOUNT-SERVICE | 11-12-2020 16:43:36.547 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ACCOUNT-SERVICE | 11-12-2020 16:43:36.555 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface id.sjp.microservice.accountservice.repository.database.AccountRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+ACCOUNT-SERVICE | 11-12-2020 16:43:36.559 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 1 Redis repository interfaces.
+ACCOUNT-SERVICE | 11-12-2020 16:43:36.848 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 6969 (http)
+ACCOUNT-SERVICE | 11-12-2020 16:43:36.854 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-6969"]
+ACCOUNT-SERVICE | 11-12-2020 16:43:36.855 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+ACCOUNT-SERVICE | 11-12-2020 16:43:36.855 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+ACCOUNT-SERVICE | 11-12-2020 16:43:36.909 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ACCOUNT-SERVICE | 11-12-2020 16:43:36.909 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 786 ms
+ACCOUNT-SERVICE | 11-12-2020 16:43:37.021 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ACCOUNT-SERVICE | 11-12-2020 16:43:37.042 [task-1] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ACCOUNT-SERVICE | 11-12-2020 16:43:37.057 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ACCOUNT-SERVICE | 11-12-2020 16:43:37.065 [task-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.20.Final
+ACCOUNT-SERVICE | 11-12-2020 16:43:37.128 [task-1] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ACCOUNT-SERVICE | 11-12-2020 16:43:37.246 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - account-connection-pool - Starting...
+ACCOUNT-SERVICE | 11-12-2020 16:43:37.296 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - account-connection-pool - Start completed.
+ACCOUNT-SERVICE | 11-12-2020 16:43:37.304 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+ACCOUNT-SERVICE | 11-12-2020 16:43:37.548 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6969"]
+ACCOUNT-SERVICE | 11-12-2020 16:43:37.558 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 6969 (http) with context path ''
+ACCOUNT-SERVICE | 11-12-2020 16:43:37.559 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+ACCOUNT-SERVICE | 11-12-2020 16:43:37.618 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ACCOUNT-SERVICE | 11-12-2020 16:43:37.622 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ACCOUNT-SERVICE | 11-12-2020 16:43:37.724 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+ACCOUNT-SERVICE | 11-12-2020 16:43:37.730 [main] INFO  i.s.m.a.AccountServiceApplication - Started AccountServiceApplication in 1.931 seconds (JVM running for 2.137)
+ACCOUNT-SERVICE | 11-12-2020 16:43:54.867 [http-nio-6969-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ACCOUNT-SERVICE | 11-12-2020 16:43:54.867 [http-nio-6969-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ACCOUNT-SERVICE | 11-12-2020 16:43:54.871 [http-nio-6969-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+ACCOUNT-SERVICE | 11-12-2020 16:47:45.955 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ACCOUNT-SERVICE | 11-12-2020 16:47:45.958 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+ACCOUNT-SERVICE | 11-12-2020 16:47:45.958 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - account-connection-pool - Shutdown initiated...
+ACCOUNT-SERVICE | 11-12-2020 16:47:45.961 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - account-connection-pool - Shutdown completed.
+ACCOUNT-SERVICE | 11-12-2020 16:47:56.460 [main] INFO  i.s.m.a.AccountServiceApplicationTests - Starting AccountServiceApplicationTests on ayubi-buaya-dev with PID 274457 (started by ayubi in /home/ayubi/sjp/belajar/spring-boot/account-service)
+ACCOUNT-SERVICE | 11-12-2020 16:47:56.461 [main] INFO  i.s.m.a.AccountServiceApplicationTests - The following profiles are active: local
+ACCOUNT-SERVICE | 11-12-2020 16:47:56.947 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+ACCOUNT-SERVICE | 11-12-2020 16:47:56.948 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+ACCOUNT-SERVICE | 11-12-2020 16:47:57.100 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JPA - Could not safely identify store assignment for repository candidate interface id.sjp.microservice.accountservice.repository.redis.TempAccountRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+ACCOUNT-SERVICE | 11-12-2020 16:47:57.121 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 165ms. Found 1 JPA repository interfaces.
+ACCOUNT-SERVICE | 11-12-2020 16:47:57.130 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+ACCOUNT-SERVICE | 11-12-2020 16:47:57.131 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ACCOUNT-SERVICE | 11-12-2020 16:47:57.143 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface id.sjp.microservice.accountservice.repository.database.AccountRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+ACCOUNT-SERVICE | 11-12-2020 16:47:57.148 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8ms. Found 1 Redis repository interfaces.
+ACCOUNT-SERVICE | 11-12-2020 16:47:57.545 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ACCOUNT-SERVICE | 11-12-2020 16:47:57.647 [task-1] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ACCOUNT-SERVICE | 11-12-2020 16:47:57.689 [task-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.20.Final
+ACCOUNT-SERVICE | 11-12-2020 16:47:57.804 [task-1] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ACCOUNT-SERVICE | 11-12-2020 16:47:57.874 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ACCOUNT-SERVICE | 11-12-2020 16:47:57.896 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - account-connection-pool - Starting...
+ACCOUNT-SERVICE | 11-12-2020 16:47:57.997 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - account-connection-pool - Start completed.
+ACCOUNT-SERVICE | 11-12-2020 16:47:58.018 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+ACCOUNT-SERVICE | 11-12-2020 16:47:58.577 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ACCOUNT-SERVICE | 11-12-2020 16:47:58.586 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ACCOUNT-SERVICE | 11-12-2020 16:47:59.144 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+ACCOUNT-SERVICE | 11-12-2020 16:47:59.325 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+ACCOUNT-SERVICE | 11-12-2020 16:47:59.333 [main] INFO  i.s.m.a.AccountServiceApplicationTests - Started AccountServiceApplicationTests in 3.186 seconds (JVM running for 3.861)
+ACCOUNT-SERVICE | 11-12-2020 16:47:59.444 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ACCOUNT-SERVICE | 11-12-2020 16:47:59.445 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+ACCOUNT-SERVICE | 11-12-2020 16:47:59.446 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - account-connection-pool - Shutdown initiated...
+ACCOUNT-SERVICE | 11-12-2020 16:47:59.449 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - account-connection-pool - Shutdown completed.
+ACCOUNT-SERVICE | 11-12-2020 16:48:59.762 [main] INFO  i.s.m.a.AccountServiceApplication - Starting AccountServiceApplication on ayubi-buaya-dev with PID 274674 (/home/ayubi/sjp/belajar/spring-boot/account-service/target/classes started by ayubi in /home/ayubi/sjp/belajar/spring-boot/account-service)
+ACCOUNT-SERVICE | 11-12-2020 16:48:59.764 [main] INFO  i.s.m.a.AccountServiceApplication - The following profiles are active: local
+ACCOUNT-SERVICE | 11-12-2020 16:49:00.110 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+ACCOUNT-SERVICE | 11-12-2020 16:49:00.110 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+ACCOUNT-SERVICE | 11-12-2020 16:49:00.184 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JPA - Could not safely identify store assignment for repository candidate interface id.sjp.microservice.accountservice.repository.redis.TempAccountRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+ACCOUNT-SERVICE | 11-12-2020 16:49:00.194 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 54ms. Found 1 JPA repository interfaces.
+ACCOUNT-SERVICE | 11-12-2020 16:49:00.201 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+ACCOUNT-SERVICE | 11-12-2020 16:49:00.202 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ACCOUNT-SERVICE | 11-12-2020 16:49:00.210 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface id.sjp.microservice.accountservice.repository.database.AccountRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+ACCOUNT-SERVICE | 11-12-2020 16:49:00.214 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 1 Redis repository interfaces.
+ACCOUNT-SERVICE | 11-12-2020 16:49:00.497 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 6969 (http)
+ACCOUNT-SERVICE | 11-12-2020 16:49:00.503 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-6969"]
+ACCOUNT-SERVICE | 11-12-2020 16:49:00.504 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+ACCOUNT-SERVICE | 11-12-2020 16:49:00.504 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+ACCOUNT-SERVICE | 11-12-2020 16:49:00.554 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ACCOUNT-SERVICE | 11-12-2020 16:49:00.554 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 761 ms
+ACCOUNT-SERVICE | 11-12-2020 16:49:00.676 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ACCOUNT-SERVICE | 11-12-2020 16:49:00.699 [task-1] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ACCOUNT-SERVICE | 11-12-2020 16:49:00.715 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ACCOUNT-SERVICE | 11-12-2020 16:49:00.722 [task-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.20.Final
+ACCOUNT-SERVICE | 11-12-2020 16:49:00.783 [task-1] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ACCOUNT-SERVICE | 11-12-2020 16:49:00.897 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - account-connection-pool - Starting...
+ACCOUNT-SERVICE | 11-12-2020 16:49:00.947 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - account-connection-pool - Start completed.
+ACCOUNT-SERVICE | 11-12-2020 16:49:00.955 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+ACCOUNT-SERVICE | 11-12-2020 16:49:01.211 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6969"]
+ACCOUNT-SERVICE | 11-12-2020 16:49:01.220 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 6969 (http) with context path ''
+ACCOUNT-SERVICE | 11-12-2020 16:49:01.221 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+ACCOUNT-SERVICE | 11-12-2020 16:49:01.275 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ACCOUNT-SERVICE | 11-12-2020 16:49:01.280 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ACCOUNT-SERVICE | 11-12-2020 16:49:01.376 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+ACCOUNT-SERVICE | 11-12-2020 16:49:01.382 [main] INFO  i.s.m.a.AccountServiceApplication - Started AccountServiceApplication in 1.905 seconds (JVM running for 2.106)
+ACCOUNT-SERVICE | 11-12-2020 16:49:11.435 [http-nio-6969-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ACCOUNT-SERVICE | 11-12-2020 16:49:11.435 [http-nio-6969-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ACCOUNT-SERVICE | 11-12-2020 16:49:11.440 [http-nio-6969-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+ACCOUNT-SERVICE | 11-12-2020 16:49:51.756 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ACCOUNT-SERVICE | 11-12-2020 16:49:51.757 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+ACCOUNT-SERVICE | 11-12-2020 16:49:51.757 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - account-connection-pool - Shutdown initiated...
+ACCOUNT-SERVICE | 11-12-2020 16:49:51.759 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - account-connection-pool - Shutdown completed.
+ACCOUNT-SERVICE | 11-12-2020 16:49:59.657 [main] INFO  i.s.m.a.AccountServiceApplicationTests - Starting AccountServiceApplicationTests on ayubi-buaya-dev with PID 274847 (started by ayubi in /home/ayubi/sjp/belajar/spring-boot/account-service)
+ACCOUNT-SERVICE | 11-12-2020 16:49:59.658 [main] INFO  i.s.m.a.AccountServiceApplicationTests - The following profiles are active: local
+ACCOUNT-SERVICE | 11-12-2020 16:50:00.076 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+ACCOUNT-SERVICE | 11-12-2020 16:50:00.078 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+ACCOUNT-SERVICE | 11-12-2020 16:50:00.223 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JPA - Could not safely identify store assignment for repository candidate interface id.sjp.microservice.accountservice.repository.redis.TempAccountRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+ACCOUNT-SERVICE | 11-12-2020 16:50:00.246 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 159ms. Found 1 JPA repository interfaces.
+ACCOUNT-SERVICE | 11-12-2020 16:50:00.256 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+ACCOUNT-SERVICE | 11-12-2020 16:50:00.257 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ACCOUNT-SERVICE | 11-12-2020 16:50:00.268 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface id.sjp.microservice.accountservice.repository.database.AccountRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+ACCOUNT-SERVICE | 11-12-2020 16:50:00.272 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8ms. Found 1 Redis repository interfaces.
+ACCOUNT-SERVICE | 11-12-2020 16:50:00.700 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ACCOUNT-SERVICE | 11-12-2020 16:50:00.800 [task-1] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ACCOUNT-SERVICE | 11-12-2020 16:50:00.850 [task-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.20.Final
+ACCOUNT-SERVICE | 11-12-2020 16:50:00.988 [task-1] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ACCOUNT-SERVICE | 11-12-2020 16:50:00.992 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ACCOUNT-SERVICE | 11-12-2020 16:50:01.100 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - account-connection-pool - Starting...
+ACCOUNT-SERVICE | 11-12-2020 16:50:01.209 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - account-connection-pool - Start completed.
+ACCOUNT-SERVICE | 11-12-2020 16:50:01.235 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+ACCOUNT-SERVICE | 11-12-2020 16:50:01.767 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ACCOUNT-SERVICE | 11-12-2020 16:50:01.776 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ACCOUNT-SERVICE | 11-12-2020 16:50:02.333 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+ACCOUNT-SERVICE | 11-12-2020 16:50:02.509 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+ACCOUNT-SERVICE | 11-12-2020 16:50:02.515 [main] INFO  i.s.m.a.AccountServiceApplicationTests - Started AccountServiceApplicationTests in 3.159 seconds (JVM running for 3.876)
+ACCOUNT-SERVICE | 11-12-2020 16:50:02.622 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ACCOUNT-SERVICE | 11-12-2020 16:50:02.623 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+ACCOUNT-SERVICE | 11-12-2020 16:50:02.624 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - account-connection-pool - Shutdown initiated...
+ACCOUNT-SERVICE | 11-12-2020 16:50:02.628 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - account-connection-pool - Shutdown completed.
+ACCOUNT-SERVICE | 11-12-2020 16:50:21.005 [main] INFO  i.s.m.a.AccountServiceApplication - Starting AccountServiceApplication on ayubi-buaya-dev with PID 275028 (/home/ayubi/sjp/belajar/spring-boot/account-service/target/classes started by ayubi in /home/ayubi/sjp/belajar/spring-boot/account-service)
+ACCOUNT-SERVICE | 11-12-2020 16:50:21.007 [main] INFO  i.s.m.a.AccountServiceApplication - The following profiles are active: local
+ACCOUNT-SERVICE | 11-12-2020 16:50:21.391 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+ACCOUNT-SERVICE | 11-12-2020 16:50:21.391 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+ACCOUNT-SERVICE | 11-12-2020 16:50:21.472 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JPA - Could not safely identify store assignment for repository candidate interface id.sjp.microservice.accountservice.repository.redis.TempAccountRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+ACCOUNT-SERVICE | 11-12-2020 16:50:21.482 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 55ms. Found 1 JPA repository interfaces.
+ACCOUNT-SERVICE | 11-12-2020 16:50:21.489 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+ACCOUNT-SERVICE | 11-12-2020 16:50:21.490 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ACCOUNT-SERVICE | 11-12-2020 16:50:21.497 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface id.sjp.microservice.accountservice.repository.database.AccountRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+ACCOUNT-SERVICE | 11-12-2020 16:50:21.501 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 1 Redis repository interfaces.
+ACCOUNT-SERVICE | 11-12-2020 16:50:21.799 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 6969 (http)
+ACCOUNT-SERVICE | 11-12-2020 16:50:21.805 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-6969"]
+ACCOUNT-SERVICE | 11-12-2020 16:50:21.806 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+ACCOUNT-SERVICE | 11-12-2020 16:50:21.806 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+ACCOUNT-SERVICE | 11-12-2020 16:50:21.863 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ACCOUNT-SERVICE | 11-12-2020 16:50:21.863 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 819 ms
+ACCOUNT-SERVICE | 11-12-2020 16:50:21.988 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ACCOUNT-SERVICE | 11-12-2020 16:50:22.016 [task-1] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ACCOUNT-SERVICE | 11-12-2020 16:50:22.031 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ACCOUNT-SERVICE | 11-12-2020 16:50:22.044 [task-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.20.Final
+ACCOUNT-SERVICE | 11-12-2020 16:50:22.117 [task-1] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ACCOUNT-SERVICE | 11-12-2020 16:50:22.211 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - account-connection-pool - Starting...
+ACCOUNT-SERVICE | 11-12-2020 16:50:22.267 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - account-connection-pool - Start completed.
+ACCOUNT-SERVICE | 11-12-2020 16:50:22.275 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+ACCOUNT-SERVICE | 11-12-2020 16:50:22.546 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6969"]
+ACCOUNT-SERVICE | 11-12-2020 16:50:22.557 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 6969 (http) with context path ''
+ACCOUNT-SERVICE | 11-12-2020 16:50:22.558 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+ACCOUNT-SERVICE | 11-12-2020 16:50:22.627 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ACCOUNT-SERVICE | 11-12-2020 16:50:22.632 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ACCOUNT-SERVICE | 11-12-2020 16:50:22.732 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+ACCOUNT-SERVICE | 11-12-2020 16:50:22.738 [main] INFO  i.s.m.a.AccountServiceApplication - Started AccountServiceApplication in 2.041 seconds (JVM running for 2.242)
+ACCOUNT-SERVICE | 11-12-2020 16:57:50.823 [http-nio-6969-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ACCOUNT-SERVICE | 11-12-2020 16:57:50.823 [http-nio-6969-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ACCOUNT-SERVICE | 11-12-2020 16:57:50.828 [http-nio-6969-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+ACCOUNT-SERVICE | 11-12-2020 17:02:41.802 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ACCOUNT-SERVICE | 11-12-2020 17:02:41.804 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+ACCOUNT-SERVICE | 11-12-2020 17:02:41.805 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - account-connection-pool - Shutdown initiated...
+ACCOUNT-SERVICE | 11-12-2020 17:02:41.807 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - account-connection-pool - Shutdown completed.
+ACCOUNT-SERVICE | 11-12-2020 17:02:56.434 [main] INFO  i.s.m.a.AccountServiceApplicationTests - Starting AccountServiceApplicationTests on ayubi-buaya-dev with PID 276259 (started by ayubi in /home/ayubi/sjp/belajar/spring-boot/account-service)
+ACCOUNT-SERVICE | 11-12-2020 17:02:56.435 [main] INFO  i.s.m.a.AccountServiceApplicationTests - The following profiles are active: local
+ACCOUNT-SERVICE | 11-12-2020 17:02:56.879 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+ACCOUNT-SERVICE | 11-12-2020 17:02:56.881 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+ACCOUNT-SERVICE | 11-12-2020 17:02:57.039 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JPA - Could not safely identify store assignment for repository candidate interface id.sjp.microservice.accountservice.repository.redis.TempAccountRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+ACCOUNT-SERVICE | 11-12-2020 17:02:57.052 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 163ms. Found 1 JPA repository interfaces.
+ACCOUNT-SERVICE | 11-12-2020 17:02:57.061 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+ACCOUNT-SERVICE | 11-12-2020 17:02:57.063 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ACCOUNT-SERVICE | 11-12-2020 17:02:57.077 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface id.sjp.microservice.accountservice.repository.database.AccountRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+ACCOUNT-SERVICE | 11-12-2020 17:02:57.083 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11ms. Found 1 Redis repository interfaces.
+ACCOUNT-SERVICE | 11-12-2020 17:02:57.515 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ACCOUNT-SERVICE | 11-12-2020 17:02:57.605 [task-1] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ACCOUNT-SERVICE | 11-12-2020 17:02:57.649 [task-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.20.Final
+ACCOUNT-SERVICE | 11-12-2020 17:02:57.784 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ACCOUNT-SERVICE | 11-12-2020 17:02:57.786 [task-1] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ACCOUNT-SERVICE | 11-12-2020 17:02:57.875 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - account-connection-pool - Starting...
+ACCOUNT-SERVICE | 11-12-2020 17:02:57.960 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - account-connection-pool - Start completed.
+ACCOUNT-SERVICE | 11-12-2020 17:02:57.979 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+ACCOUNT-SERVICE | 11-12-2020 17:02:58.495 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ACCOUNT-SERVICE | 11-12-2020 17:02:58.501 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ACCOUNT-SERVICE | 11-12-2020 17:02:59.055 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+ACCOUNT-SERVICE | 11-12-2020 17:02:59.228 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+ACCOUNT-SERVICE | 11-12-2020 17:02:59.235 [main] INFO  i.s.m.a.AccountServiceApplicationTests - Started AccountServiceApplicationTests in 3.085 seconds (JVM running for 3.779)
+ACCOUNT-SERVICE | 11-12-2020 17:02:59.332 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ACCOUNT-SERVICE | 11-12-2020 17:02:59.333 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+ACCOUNT-SERVICE | 11-12-2020 17:02:59.334 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - account-connection-pool - Shutdown initiated...
+ACCOUNT-SERVICE | 11-12-2020 17:02:59.336 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - account-connection-pool - Shutdown completed.
+ACCOUNT-SERVICE | 11-12-2020 17:03:13.535 [main] INFO  i.s.m.a.AccountServiceApplication - Starting AccountServiceApplication on ayubi-buaya-dev with PID 276383 (/home/ayubi/sjp/belajar/spring-boot/account-service/target/classes started by ayubi in /home/ayubi/sjp/belajar/spring-boot/account-service)
+ACCOUNT-SERVICE | 11-12-2020 17:03:13.537 [main] INFO  i.s.m.a.AccountServiceApplication - The following profiles are active: local
+ACCOUNT-SERVICE | 11-12-2020 17:03:13.882 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+ACCOUNT-SERVICE | 11-12-2020 17:03:13.882 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+ACCOUNT-SERVICE | 11-12-2020 17:03:13.957 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JPA - Could not safely identify store assignment for repository candidate interface id.sjp.microservice.accountservice.repository.redis.TempAccountRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+ACCOUNT-SERVICE | 11-12-2020 17:03:13.969 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 56ms. Found 1 JPA repository interfaces.
+ACCOUNT-SERVICE | 11-12-2020 17:03:13.977 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+ACCOUNT-SERVICE | 11-12-2020 17:03:13.978 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ACCOUNT-SERVICE | 11-12-2020 17:03:13.985 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface id.sjp.microservice.accountservice.repository.database.AccountRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+ACCOUNT-SERVICE | 11-12-2020 17:03:13.989 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 1 Redis repository interfaces.
+ACCOUNT-SERVICE | 11-12-2020 17:03:14.278 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 6969 (http)
+ACCOUNT-SERVICE | 11-12-2020 17:03:14.284 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-6969"]
+ACCOUNT-SERVICE | 11-12-2020 17:03:14.284 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+ACCOUNT-SERVICE | 11-12-2020 17:03:14.285 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+ACCOUNT-SERVICE | 11-12-2020 17:03:14.335 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ACCOUNT-SERVICE | 11-12-2020 17:03:14.335 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 769 ms
+ACCOUNT-SERVICE | 11-12-2020 17:03:14.448 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ACCOUNT-SERVICE | 11-12-2020 17:03:14.470 [task-1] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ACCOUNT-SERVICE | 11-12-2020 17:03:14.487 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ACCOUNT-SERVICE | 11-12-2020 17:03:14.493 [task-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.20.Final
+ACCOUNT-SERVICE | 11-12-2020 17:03:14.555 [task-1] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ACCOUNT-SERVICE | 11-12-2020 17:03:14.654 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - account-connection-pool - Starting...
+ACCOUNT-SERVICE | 11-12-2020 17:03:14.708 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - account-connection-pool - Start completed.
+ACCOUNT-SERVICE | 11-12-2020 17:03:14.720 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+ACCOUNT-SERVICE | 11-12-2020 17:03:14.976 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6969"]
+ACCOUNT-SERVICE | 11-12-2020 17:03:14.985 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 6969 (http) with context path ''
+ACCOUNT-SERVICE | 11-12-2020 17:03:14.986 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+ACCOUNT-SERVICE | 11-12-2020 17:03:15.040 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ACCOUNT-SERVICE | 11-12-2020 17:03:15.045 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ACCOUNT-SERVICE | 11-12-2020 17:03:15.144 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+ACCOUNT-SERVICE | 11-12-2020 17:03:15.151 [main] INFO  i.s.m.a.AccountServiceApplication - Started AccountServiceApplication in 1.902 seconds (JVM running for 2.132)
+ACCOUNT-SERVICE | 11-12-2020 17:03:40.557 [http-nio-6969-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ACCOUNT-SERVICE | 11-12-2020 17:03:40.557 [http-nio-6969-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ACCOUNT-SERVICE | 11-12-2020 17:03:40.561 [http-nio-6969-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+ACCOUNT-SERVICE | 11-12-2020 17:06:44.163 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ACCOUNT-SERVICE | 11-12-2020 17:06:44.164 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+ACCOUNT-SERVICE | 11-12-2020 17:06:44.164 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - account-connection-pool - Shutdown initiated...
+ACCOUNT-SERVICE | 11-12-2020 17:06:44.165 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - account-connection-pool - Shutdown completed.
+ACCOUNT-SERVICE | 11-12-2020 17:21:04.801 [main] INFO  i.s.m.a.AccountServiceApplicationTests - Starting AccountServiceApplicationTests on ayubi-buaya-dev with PID 278937 (started by ayubi in /home/ayubi/sjp/belajar/spring-boot/account-service)
+ACCOUNT-SERVICE | 11-12-2020 17:21:04.801 [main] INFO  i.s.m.a.AccountServiceApplicationTests - The following profiles are active: local
+ACCOUNT-SERVICE | 11-12-2020 17:21:05.191 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+ACCOUNT-SERVICE | 11-12-2020 17:21:05.191 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ACCOUNT-SERVICE | 11-12-2020 17:21:05.208 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4ms. Found 0 Redis repository interfaces.
+ACCOUNT-SERVICE | 11-12-2020 17:21:05.343 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+ACCOUNT-SERVICE | 11-12-2020 17:21:05.344 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+ACCOUNT-SERVICE | 11-12-2020 17:21:05.458 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JPA - Could not safely identify store assignment for repository candidate interface id.sjp.microservice.accountservice.repository.redis.TempAccountRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+ACCOUNT-SERVICE | 11-12-2020 17:21:05.471 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 123ms. Found 1 JPA repository interfaces.
+ACCOUNT-SERVICE | 11-12-2020 17:21:05.480 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+ACCOUNT-SERVICE | 11-12-2020 17:21:05.480 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+ACCOUNT-SERVICE | 11-12-2020 17:21:05.484 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface id.sjp.microservice.accountservice.repository.database.AccountRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+ACCOUNT-SERVICE | 11-12-2020 17:21:05.489 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8ms. Found 1 Redis repository interfaces.
+ACCOUNT-SERVICE | 11-12-2020 17:21:05.913 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ACCOUNT-SERVICE | 11-12-2020 17:21:05.961 [task-1] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ACCOUNT-SERVICE | 11-12-2020 17:21:06.081 [task-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.20.Final
+ACCOUNT-SERVICE | 11-12-2020 17:21:06.180 [task-1] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ACCOUNT-SERVICE | 11-12-2020 17:21:06.267 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - account-connection-pool - Starting...
+ACCOUNT-SERVICE | 11-12-2020 17:21:06.340 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - account-connection-pool - Start completed.
+ACCOUNT-SERVICE | 11-12-2020 17:21:06.355 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+ACCOUNT-SERVICE | 11-12-2020 17:21:06.744 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ACCOUNT-SERVICE | 11-12-2020 17:21:07.021 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ACCOUNT-SERVICE | 11-12-2020 17:21:07.031 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ACCOUNT-SERVICE | 11-12-2020 17:21:07.348 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+ACCOUNT-SERVICE | 11-12-2020 17:21:07.699 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+ACCOUNT-SERVICE | 11-12-2020 17:21:07.708 [main] INFO  i.s.m.a.AccountServiceApplicationTests - Started AccountServiceApplicationTests in 3.185 seconds (JVM running for 3.864)
+ACCOUNT-SERVICE | 11-12-2020 17:21:07.943 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ACCOUNT-SERVICE | 11-12-2020 17:21:07.944 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+ACCOUNT-SERVICE | 11-12-2020 17:21:07.944 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - account-connection-pool - Shutdown initiated...
+ACCOUNT-SERVICE | 11-12-2020 17:21:07.946 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - account-connection-pool - Shutdown completed.

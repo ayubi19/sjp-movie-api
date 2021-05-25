@@ -1,0 +1,131 @@
+#============================================================================
+# SERVER
+#============================================================================
+server:
+  port: 6969
+  tomcat:
+    max-threads: 4000
+    connection-timeout: 30000 #in milisecond
+
+#============================================================================
+# SPRING
+#============================================================================
+spring:
+  application:
+    name: sjp-account-service
+  profiles:
+    active: local
+  banner:
+    location:
+      classpath: /banner.txt
+  #Redis docker
+  redis:
+    host: ${redis.host}
+    port: ${redis.port}
+    timeout: 10s
+
+  #Postgres docker
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://${db.host}:${db.port}/${db.name}
+    username: ${db.username}
+    password: ${db.password}
+    hikari:
+      minimumIdle: 10
+      maximumPoolSize: 60
+      idleTimeout: 30000
+      poolName: account-connection-pool
+      maxLifetime: 2000000
+      connectionTimeout: 60000
+
+  #JPA
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        default_schema: public
+        format_sql: true
+        jdbc:
+          lob:
+            non_contextual_creation: true
+        naming_strategy: org.hibernate.cfg.EJB3NamingStrategy
+        dialect: org.hibernate.dialect.PostgreSQL9Dialect
+        ddl-auto: update #validate  # Hibernate ddl auto (create, create-drop, validate, update)
+
+
+#============================================================================
+# DATABASE
+#============================================================================
+db:
+  name : account
+  host : localhost
+  port : 4041
+  username : postgres
+  password : postgres
+  auto-reconnect : true
+  ssl : false
+
+#============================================================================
+# REDIS
+#============================================================================
+redis:
+  host: localhost
+  port: 4040
+
+#============================================================================
+# LOGGER
+#============================================================================
+logging:
+  config: classpath:logback-spring.xml
+  file : ${log.file.path}
+  level:
+    id.sjp.accountservice: DEBUG
+  api :
+    base-path : http://localhost:6969
+
+#============================================================================
+# LOG FILE
+#============================================================================
+log :
+  enabled : false
+  file :
+    path : /home/ayubi/sjp/java/LOGGER/account-service.log
+
+#============================================================================
+# SWAGGER
+#============================================================================
+swagger :
+  vendor :
+    name : SJP-ACCOUNT-SERVICE
+    value : 1.0.0
+  metadata :
+    title : ACCOUNT-SERVICE
+    description : API ACCOUNT SERVICE
+    version : 1.0.0
+    tos : This Documentation is Only Available on Development Phase
+    license : Apache License Version 2.0
+    license-url : https://www.apache.org/licenses/LICENSE-2.0
+    contact :
+      name : Syahrul Ayubi
+      url : https://www.facebook.com/syahrul.ayubii/
+      email : syahrul.ayubi@gmail.com
+
+#============================================================================
+# ACTUATOR
+#============================================================================
+management:
+  endpoint:
+    health:
+      show-details: never
+  endpoints:
+    web:
+      base-path: /
+      exposure:
+        include: "*"
+info:
+  app:
+    encoding: "@project.build.sourceEncoding@"
+    java:
+      version: "@java.version@"
